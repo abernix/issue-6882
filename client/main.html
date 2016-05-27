@@ -1,0 +1,28 @@
+<head>
+  <title>Issue 6882</title>
+</head>
+
+<body>
+  <div class="container" ng-app="auth0" ng-controller="auth0Ctrl">
+    <header>
+      <h1>Issue 6882</h1>
+    </header>
+
+    <ul>
+      <li ng-repeat="task in tasks">
+        {{task.text}}
+      </li>
+    </ul>
+
+    <p>My User Id: {{myId}}</p>
+
+
+    <button ng-click="loginUserWithAuth0()">
+    login
+    </button>
+
+    <button ng-click="logout()">
+    logout
+    </button>
+  </div>
+</body>

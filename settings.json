@@ -1,0 +1,8 @@
+{
+	"auth0": {
+	    "domain": "abernix.eu.auth0.com",
+	    "clientId": "9znFx83fSJtu2QT09OLUGU6MSiOBMZL7",
+	    "secret":"Zl0warSjCM9GufTp5x_qx4cpGer2W2d5VskQjkoXvaBs-vQioygnAuAVLgmGStQB",
+	    "disableSignupAction": false
+	  }
+}
